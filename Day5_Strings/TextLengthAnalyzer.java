@@ -2,7 +2,7 @@ package Day5_Strings;
 
 import java.util.*;
 
-public class TextLengthAnalyzer {
+public class TextLengthAnalyzer{
 
     public static String[] splitTextIntoWords(String text) {
         int wordCount = 0;

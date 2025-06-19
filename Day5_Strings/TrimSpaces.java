@@ -2,7 +2,7 @@ package Day5_Strings;
 
 import java.util.*;
 
-public class TrimSpaces {
+public class TrimSpaces{
     public static int[] getTrimBounds(String text) {
         int start = 0, end = text.length() - 1;
         while (start < text.length() && text.charAt(start) == ' ') {

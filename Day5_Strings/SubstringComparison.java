@@ -2,7 +2,7 @@ package Day5_Strings;
 
 import java.util.*;
 
-public class SubstringComparison {
+public class SubstringComparison{
     public static String customSubstring(String txt, int start, int end) {
         String result = "";
         for (int i = start; i < end; i++) {

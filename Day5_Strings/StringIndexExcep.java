@@ -2,7 +2,7 @@ package Day5_Strings;
 
 import java.util.*;
 
-public class StringIndexExcep {
+public class StringIndexExcep{
     public static void generateException(String text) {
         System.out.println(text.charAt(100));
     }
