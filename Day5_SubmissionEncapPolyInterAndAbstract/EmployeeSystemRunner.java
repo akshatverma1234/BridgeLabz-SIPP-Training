@@ -81,8 +81,8 @@ class PartTimeEmployee extends Employee implements Department {
 
 public class EmployeeSystemRunner {
     public static void main(String[] args) {
-        Employee e1 = new FullTimeEmployee(1, "Akshat", 30000);
-        Employee e2 = new PartTimeEmployee(2, "Riya", 400, 20);
+        Employee e1 = new FullTimeEmployee(1, "Akshat", 60000);
+        Employee e2 = new PartTimeEmployee(2, "Aman", 500, 22);
 
         Employee[] employees = { e1, e2 };
 
