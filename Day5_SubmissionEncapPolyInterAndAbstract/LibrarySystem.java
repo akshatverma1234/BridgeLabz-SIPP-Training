@@ -57,8 +57,8 @@ class Magazine extends LibraryItem implements Reservable {
 
 public class LibrarySystem {
     public static void main(String[] args) {
-        LibraryItem item1 = new Book("B01", "Java Basics", "James");
-        LibraryItem item2 = new Magazine("M01", "Tech Today", "Sara");
+        LibraryItem item1 = new Book("S01", "Java Concept", "Akshat");
+        LibraryItem item2 = new Magazine("U01", "Full Stack", "Aman");
 
         LibraryItem[] items = { item1, item2 };
 
