@@ -93,7 +93,6 @@ public class EmployeeSystemRunner {
                 ((Department) e).assignDepartment("Tech");
                 System.out.println(((Department) e).getDepartmentDetails());
             }
-            System.out.println("-----");
         }
     }
 }
