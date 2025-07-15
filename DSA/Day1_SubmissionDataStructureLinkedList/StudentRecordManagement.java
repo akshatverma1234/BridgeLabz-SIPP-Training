@@ -89,17 +89,17 @@ public class StudentRecordManagement {
 
         studentList.addAtEnd(new StudentNode(1, "Akshat", 20, "A"));
         studentList.addAtBeginning(new StudentNode(2, "Vedansh", 21, "B"));
-        studentList.addAtPosition(new StudentNode(3, "Ananya", 19, "A+"), 1);
+        studentList.addAtPosition(new StudentNode(3, "Ujjwal", 19, "A+"), 1);
 
-        System.out.println("All Students:");
+        System.out.println(" All Students: ");
         studentList.display();
 
         studentList.updateGrade(2, "A");
-        System.out.println("\nAfter Updating Grade:");
+        System.out.println(" After Updating Grade: ");
         studentList.display();
 
         studentList.deleteByRollNo(3);
-        System.out.println("\nAfter Deleting Roll No 3:");
+        System.out.println("After Deleting Roll No 3: ");
         studentList.display();
     }
 }
