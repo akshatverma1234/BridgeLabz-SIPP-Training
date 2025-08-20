@@ -1,4 +1,3 @@
-// Circular Array Timer
 CLASS QuizTimer {
     INT[] timeSlots
     INT totalQuestions
@@ -21,7 +20,7 @@ CLASS QuizTimer {
     }
 }
 
-// MAIN
-CREATE slots = [30, 45, 60]   // seconds for each question
+CREATE slots = [30, 45, 60]   
 CREATE timer = QuizTimer(slots)
 timer.start()
+
