@@ -1,6 +1,6 @@
 CLASS Customer {
     STRING name
-    STRING type  // "normal" or "emergency"
+    STRING type  
 
     METHOD Customer(n, t) {
         name = n
@@ -29,11 +29,12 @@ CLASS CallCenter {
     }
 }
 
-// MAIN
-cc = CallCenter()
-cc.addCustomer(Customer("Amit", "normal"))
-cc.addCustomer(Customer("Priya", "emergency"))
-cc.addCustomer(Customer("Ravi", "normal"))
 
-cc.serveCustomer() // Priya first
-cc.serveCustomer() // Amit next
+cc = CallCenter()
+cc.addCustomer(Customer("Akshat", "normal"))
+cc.addCustomer(Customer("Aman", "emergency"))
+cc.addCustomer(Customer("Aryan", "normal"))
+
+cc.serveCustomer() 
+cc.serveCustomer() 
+
