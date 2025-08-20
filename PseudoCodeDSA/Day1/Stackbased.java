@@ -1,4 +1,3 @@
-// Stack-based Undo system
 CLASS TextEditor {
     STACK<String> history
     STRING currentText = ""
@@ -20,7 +19,6 @@ CLASS TextEditor {
     }
 }
 
-// MAIN
 editor = TextEditor()
 editor.typeText("Hello ")
 editor.typeText("World!")
@@ -28,3 +26,4 @@ editor.showText()
 
 editor.undo()
 editor.showText()
+
